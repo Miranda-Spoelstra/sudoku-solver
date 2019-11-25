@@ -9,7 +9,7 @@ public class Sudoku {
 		this.grid = new int[getSize()][getSize()];
 		create(sudokuInput);
 	}
-	
+
 	public static void main(String[] args)
 	{
 		Sudoku s = new Sudoku("000820090500000000308040007100000040006402503000090010093004000004035200000700900");
